@@ -60,7 +60,7 @@ At the end of your document (before `\end{document}`):
 \bibliographystyle{chem-acs}  ← or unsrt, rsc, etc. for different ref style
 \bibliography{references}     ← matches your .bib file name (no extension)
 ```
-- Note that only the papers _actually cited_ will exist in the reference section at the end.
+
 ---
 
 ### **Step 4 — Cite in your text**
@@ -73,6 +73,7 @@ CdSe nanocrystals exhibit tunable PL.
 ```
 
 - When you compile twice in Overleaf, LaTeX automatically formats and lists all references.
+- - Note that only the papers _actually cited_ in the text will exist in the reference section at the end.
 
 ---
 
